@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: boder-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    background-image: url(../Assets/img/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* scrollbar */
+body::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: black;
+    /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+}
+
+header {
+    font-family: 'Sarala';
+    color: white;
+    height: 50px;
+    background-color: transparent;
+}
+
+
+.sidebar-left {
+    position: fixed;
+    width: 65px;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+}
+
+.sidebar-right {
+    position: fixed;
+    left: 95%;
+    width: 60px;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+}
+
+.btn-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 360px;
+}
+
+.btn a li {
+    font-family: 'Sarala';
+    color: white;
+    font-size: 19px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.btn a li:hover {
+
+    box-shadow: 0 0 10px rgb(254, 0, 72), 0 0 40px rgb(254, 0, 72), 0 0 80px rgb(254, 0, 72);
+    background-color: rgb(254, 0, 72);
+    color: black;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    transform: rotate(90deg);
+    margin-top: 90px;
+    gap: 20px;
+}
+
+.icon {
+    padding-left: 16px;
+}
+
+.icon img {
+    width: 30px;
+
+}
+
+.icon img:hover {
+    cursor: pointer;
+}
+
+.icons-sidebar-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    gap: 20px;
+}
+
+.icons-sidebar-left li img {
+    width: 30px;
+}
+
+.icons-sidebar-left li img:hover {
+    cursor: pointer;
+}
+
+.conf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.80);
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 65px;
+}
+
+
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu button {
+    border: none;
+    background: none;
+    font-family: 'Sarala';
+    color: white;
+    font-size: 16px;
+}
+
+.menu button:hover {
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+
+.menu-cardapio img {
+    width: 32px;
+    margin-right: 13px;
+    margin-top: 5px;
+
+}
+
+.menu-cardapio img:hover {
+    cursor: pointer;
+}
+
+.linha-header div {
+    width: 100%;
+    height: 3.5px;
+    background-image: linear-gradient(to right, rgba(154, 22, 99), rgb(254, 0, 72));
+}

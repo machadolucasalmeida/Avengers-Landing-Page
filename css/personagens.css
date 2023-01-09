@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    box-sizing: boder-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.rectangle1 {
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    left: 100px; 
+    top: 70px;
+    background-image: url(./../Assets/img/personagens/thor.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+    -webkit-filter: brightness(50%);
+    
+}
+.rectangle1:hover{
+    transform: translateY(-3px);
+    transition: all 1s;
+    cursor: pointer;
+    -webkit-filter: brightness(100%);
+}
+.rectangle1 p{
+    font-family: 'Sarala';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    padding-top: 95px;
+    padding-left: 10px;
+
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    left: 100px; 
+    top: 210px;
+    background-image: url(../Assets/img/personagens/black-panther.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    -webkit-filter: brightness(50%);
+}
+.rectangle2:hover{
+    transform: translateY(-3px);
+    transition: all 1s;
+    cursor: pointer;
+    -webkit-filter: brightness(100%);
+}
+.rectangle2 p{
+    font-family: 'Sarala';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    padding-top: 95px;
+    padding-left: 10px;
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    left: 100px; 
+    top: 350px;
+    background-image: url(../Assets/img/personagens/iron-man.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    -webkit-filter: brightness(50%);
+}
+.rectangle3:hover{
+    transform: translateY(-3px);
+    transition: all 1s;
+    cursor: pointer;
+    -webkit-filter: brightness(100%);
+}
+.rectangle3 p{
+    font-family: 'Sarala';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    padding-top: 95px;
+    padding-left: 10px;
+    -webkit-filter: brightness(50%);
+}
+
+.rectangle4 {
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    left: 100px; 
+    top: 490px;
+    background-image: url(../Assets/img/personagens/spider-man.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    -webkit-filter: brightness(50%);
+}
+.rectangle4:hover{
+    transform: translateY(-3px);
+    transition: all 1s;
+    cursor: pointer;
+    -webkit-filter: brightness(100%);
+}
+.rectangle4 p{
+    font-family: 'Sarala';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    padding-top: 95px;
+    padding-left: 10px;
+}
